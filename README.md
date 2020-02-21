@@ -1,5 +1,8 @@
 ABAGAIL
 =======
+Fork from Pushkar
+
+Solves an issue of running with the kali distribution
 
 [![Build Status](https://travis-ci.org/pushkar/ABAGAIL.svg?branch=master)](https://travis-ci.org/pushkar/ABAGAIL)
 

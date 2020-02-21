@@ -6,24 +6,24 @@ mkdir -p data/plot logs image
 
 # four peaks
 echo "four peaks"
-jython fourpeaks.py
+jython -Dpython.path=../ABAGAIL.jar fourpeaks.py
 
 # count ones
 echo "count ones"
-jython countones.py
+jython -Dpython.path=../ABAGAIL.jar countones.py
 
 # continuous peaks
 echo "continuous peaks"
-jython continuouspeaks.py
+jython -Dpython.path=../ABAGAIL.jar continuouspeaks.py
 
 # knapsack
 echo "Running knapsack"
-jython knapsack.py
+jython -Dpython.path=../ABAGAIL.jar knapsack.py
 
 # abalone test
 echo "Running abalone test"
-jython abalone_test.py
+jython -Dpython.path=../ABAGAIL.jar abalone_test.py
 
 # traveling salesman
 echo "Running traveling salesman test"
-jython travelingsalesman.py
+jython -Dpython.path=../ABAGAIL.jar travelingsalesman.py
